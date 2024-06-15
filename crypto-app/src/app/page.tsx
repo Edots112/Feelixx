@@ -1,10 +1,9 @@
 "use client";
 import Image from "next/image";
-import { Jost, Jomhuria } from "next/font/google";
+import {  Jomhuria } from "next/font/google";
 import { useStore } from "@/components/state";
-import { useMotionValueEvent, useScroll, useTransform } from "framer-motion";
-import { useEffect } from "react";
-import Lenis from "lenis";
+import { useMotionValueEvent, useScroll } from "framer-motion";
+
 import Link from "next/link";
 import {
   BxlTelegram,
