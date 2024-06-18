@@ -190,52 +190,51 @@ export default function Home() {
       </section>
       <section className=" p-12 flex items-center justify-center">
         <div className=" grid grid-cols-3 gap-4 place-items-center  w-full h-full">
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          <Meme src={'/chinaroof.png'} />
-          
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/chinaroof.png"} />
         </div>
       </section>
       <section className="p-12">
@@ -247,7 +246,7 @@ export default function Home() {
   );
 }
 
-function Meme({src:string}) {
+function Meme({ src }: { src: string }) {
   return (
     <motion.div
       initial={{ scale: 0.2 }}
