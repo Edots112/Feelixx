@@ -50,10 +50,10 @@ export default function Nav() {
 
       <div className=" w-full bg-[#F77F00] border-t-2 border-amber-50 h-24 fixed bottom-0 flex">
         <div className="flex gap-8 items-center justify-center p-4  h-full border-r-2 border-amber-50 w-min ">
-          <Link className="block  " href={""}>
+          <Link className="block  " href={"https://t.me/+VVoIhZgyHS5kYmQ0"}>
             <BxlTelegram className=" text-amber-50 size-6" />
           </Link>
-          <Link className="block  " href={""}>
+          <Link className="block  " href={"https://x.com/Smilo_Solana"}>
             <Fa6BrandsXTwitter className=" text-amber-50 size-6" />
           </Link>
           {/* <Link className="block  " href={""}>
@@ -75,7 +75,7 @@ export default function Nav() {
         >
           <Link
             className=" w-full h-full p-6 flex items-center justify-center text-center"
-            href={"/"}
+            href={"https://pump.fun/board"}
           >
             Buy
           </Link>
