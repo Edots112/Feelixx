@@ -56,15 +56,15 @@ export default function Nav() {
           <Link className="block  " href={""}>
             <Fa6BrandsXTwitter className=" text-amber-50 size-6" />
           </Link>
-          <Link className="block  " href={""}>
+          {/* <Link className="block  " href={""}>
             <DexToolsIcon className=" text-amber-50 size-6" />
-          </Link>
+          </Link> */}
 
-          <Link className="block  " href={""}>
+          {/* <Link className="block  " href={""}>
             <CoinMarketCap className=" text-amber-50 size-6" />
-          </Link>
+          </Link> */}
           <Link className="block  " href={""}>
-            <DexScreenerIcon className=" text-amber-50 size-6" />
+            <Image src="/pumpfa.png" alt="test" width={24} height={24} />
           </Link>
         </div>
         <div className="flex-grow w-32">

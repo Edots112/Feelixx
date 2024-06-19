@@ -168,3 +168,5 @@ export function CoinMarketCap(props: SVGProps<SVGSVGElement>) {
     </svg>
   );
 }
+
+

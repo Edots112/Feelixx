@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "fonts";
+  src: url("../app/fonts/RifficFree-Bold.ttf");
+}
+
+* {
+  font-family: "fonts";
+
+}
+
 html.lenis,
 html.lenis body {
   height: auto;

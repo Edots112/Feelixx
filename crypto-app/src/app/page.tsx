@@ -24,9 +24,9 @@ import Game from "@/components/game";
 import React from "react";
 import MemeGenerator from "@/components/memeGenerator";
 
-const jomhuria = Jomhuria({ subsets: ["latin"], weight: ["400"] });
+// const jomhuria = Jomhuria({ subsets: ["fons"], weight: ["400"] });
 
-const m_pop_one = Mochiy_Pop_One({ subsets: ["latin"], weight: ["400"] });
+// const m_pop_one = Mochiy_Pop_One({ subsets: ["fonts"], weight: ["400"] });
 const MotionImage = motion(Image);
 export default function Home() {
   const container = useRef(null);
@@ -55,12 +55,12 @@ export default function Home() {
       <section
         id="home"
         ref={container}
-        className="bg-[#F77F00] overflow-clip h-screen p-12 w-full grid  md:grid-cols-2 relative -z-10"
+        className="bg-[#F77F00] overflow-clip h-screen p-12 w-full grid  md:grid-cols-2 relative -z-10 "
       >
         <div className=" flex items-center -z-0 justify-center">
           <MotionImage
             initial={{ scale: 1 }}
-            animate={{ scale: 1.1 }}
+            animate={{ scale: 1.2 }}
             transition={{
               repeat: Infinity,
               repeatType: "mirror",
@@ -72,8 +72,8 @@ export default function Home() {
             className="mt-32 absolute top-2 scale-125  pl-12 "
             src="/cat.png"
             alt=""
-            width={500}
-            height={500}
+            width={650}
+            height={650}
           />
           <MotionImage
             style={{ y: fur_curved_an_y }}
@@ -85,19 +85,20 @@ export default function Home() {
             height={1000}
           />
         </div>
-        <div className="flex  flex-col z-10  text-[#000] md:text-[#fff] backdrop-invert md:backdrop-invert-0 md:bg-transparent bg-white/10 rounded-3xl overflow-hidden p-4 justify-center">
-          <h1 className={`${jomhuria.className} text-huge `}>ChinaCat</h1>
+        <div className="flex  flex-col z-10 mb-40 text-[#000] md:text-[#fff] backdrop-invert md:backdrop-invert-0 md:bg-transparent bg-white/10 rounded-3xl overflow-hidden p-4 justify-center">
+          <h1 className={` text-[6rem]  `}>Smilo Dog</h1>
           <p
-            className={`${m_pop_one.className} md:text-xl w-3/4 -mt-6 text-sm`}
+            className={`md:text-xl w-3/4 -mt-6 text-sm`}
           >
-            Purr-fectly Pawsperous and Playful, <br />
-            China Cat Coin: Your Ticket to Feline-Fueled Fortunes
+            This is Smilo! The dog that always smile
+             <br />
+            
           </p>
         </div>
       </section>
       <section id="buy" className="scroll-pt-64">
         <div className="bg-[#FCBF49]  p-12 px-24 text-orange-950">
-          <h1 className={`${jomhuria.className} text-8xl`}>How To Buy</h1>
+          <h1 className={` text-8xl`}>How To Buy</h1>
           <div className="space-y-10 text-xl w-2/3">
             <div>
               <h1>01. Create A Wallet</h1>
@@ -183,64 +184,26 @@ export default function Home() {
 
       <Tokenomics />
       <Timeline />
-      <section className="p-12 pt-32">
+      {/* <section className="p-12 pt-32">
         <div className="w-full relative -z-10 overflow-hidden outline-4 outline-[#FCBF49] outline-dashed outline-offset-2  rounded-xl max-h-[70vh] aspect-video min-h-96 bg-gradient-to-t from-orange-500 to-red-600">
           <Game />
         </div>
-      </section>
+      </section> */}
       <section className=" p-12 flex items-center justify-center">
         <div className=" grid grid-cols-3 gap-4 place-items-center  w-full h-full">
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
-          <Meme src={"/chinaroof.png"} />
+          <Meme src={"/1.png"} />
+          <Meme src={"/2.png"} />
+          <Meme src={"/3.png"} />
+          <Meme src={"/4.png"} />
+          <Meme src={"/5.png"} />
+          <Meme src={"/6.png"} />
+
         </div>
       </section>
-      <section className="p-12">
+      {/* <section className="p-12">
         <h1 className="text-4xl">Meme Generator</h1>
         <MemeGenerator />
-      </section>
+      </section> */}
       <section className="py-24"></section>
     </main>
   );
@@ -253,7 +216,7 @@ function Meme({ src }: { src: string }) {
       whileInView={{ scale: 1 }}
       className="w-full rounded-xl relative -z-10 overflow-hidden aspect-square flex bg-indigo-600 outline-2 outline-indigo-700 outline-dashed outline-offset-2 items-center justify-center"
     >
-      <Image alt="" width={100} height={100} src={src} />
+      <Image alt="" width={700} height={700} src={src} />
     </motion.div>
   );
 }
@@ -266,16 +229,16 @@ function Tokenomics() {
       <div>
         <h1 className="text-4xl">Tokenomics</h1>
         <p className="text-xl mt-2">
-          Total Supply: 1,000,000,000 ChinaCat Coins <br />
+          Total Supply: 1 Billion $SMILO  <br />
           No Buy/Sell Tax: 0% transaction fees <br />
-          Distribution: 50% to Community, 20% to Development, 15% to Marketing,
-          10% to Liquidity, 5% to Charity
+          Dev wallet: 6.7% of total supply <br />
+          Liquidty pool : 100 % Burned
         </p>
       </div>
       <div className="md:flex hidden">
         <Image
           className=""
-          src="/woolBall.png"
+          src="/cat.png"
           alt=""
           width={400}
           height={400}
