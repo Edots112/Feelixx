@@ -22,7 +22,7 @@ import Lenis from "lenis";
 import Timeline from "@/components/timeline";
 import Game from "@/components/game";
 import React from "react";
-import MemeGenerator from "@/components/memeGenerator";
+// import MemeGenerator from "@/components/memeGenerator";
 
 // const jomhuria = Jomhuria({ subsets: ["fons"], weight: ["400"] });
 
@@ -90,7 +90,7 @@ export default function Home() {
           <p
             className={`md:text-xl w-3/4 -mt-6 text-sm`}
           >
-            This is Smilo! The dog that always smile
+            This is Smilo! The dog that always smile!
              <br />
             
           </p>
