@@ -20,7 +20,7 @@ import {
 import { useRef } from "react";
 import Lenis from "lenis";
 import Timeline from "@/components/timeline";
-import Game from "@/components/game";
+// import Game from "@/components/game";
 import React from "react";
 // import MemeGenerator from "@/components/memeGenerator";
 
