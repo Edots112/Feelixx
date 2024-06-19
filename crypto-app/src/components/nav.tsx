@@ -75,7 +75,7 @@ export default function Nav() {
         >
           <Link
             className=" w-full h-full p-6 flex items-center justify-center text-center"
-            href={"https://pump.fun/board"}
+            href={"https://pump.fun/A7WNAzXcwg8gqAMuuerbxgjohGLz44GfiHQfwi7bpump"}
           >
             Buy
           </Link>
