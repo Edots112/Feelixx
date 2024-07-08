@@ -86,7 +86,7 @@ export default function Home() {
           />
         </div>
         <div className="flex  flex-col z-10 mb-40 text-[#000] md:text-[#fff] backdrop-invert md:backdrop-invert-0 md:bg-transparent bg-white/10 rounded-3xl overflow-hidden p-4 justify-center">
-          <h1 className={` text-[6rem]  `}>Smilo Dog</h1>
+          <h1 className={` text-[6rem]  `}>DOSSI CAT</h1>
           <p
             className={`md:text-xl w-3/4 -mt-6 text-sm`}
           >
@@ -189,7 +189,7 @@ export default function Home() {
           <Game />
         </div>
       </section> */}
-      <section className=" p-12 flex items-center justify-center">
+      {/* <section className=" p-12 flex items-center justify-center">
         <div className=" grid grid-cols-3 gap-4 place-items-center  w-full h-full">
           <Meme src={"/1.png"} />
           <Meme src={"/2.png"} />
@@ -199,7 +199,7 @@ export default function Home() {
           <Meme src={"/6.png"} />
 
         </div>
-      </section>
+      </section> */}
       {/* <section className="p-12">
         <h1 className="text-4xl">Meme Generator</h1>
         <MemeGenerator />
@@ -224,21 +224,21 @@ function Tokenomics() {
   return (
     <section
       id="tokenomics"
-      className="md:p-24 p-8 md:pt-40 py-24 flex items-center"
+      className="md:p-24 p-8 md:pt-40 py-24 flex items-center gap-10"
     >
       <div>
         <h1 className="text-4xl">Tokenomics</h1>
         <p className="text-xl mt-2">
           Total Supply: 1 Billion $DOSSI  <br />
           No Buy/Sell Tax: 0% transaction fees <br />
-          Dev wallet: 6.7% of total supply <br />
+          Dev wallet: 5% of total supply <br />
           Liquidty pool : 100 % Burned
         </p>
       </div>
       <div className="md:flex hidden">
         <Image
           className=""
-          src="/cat.png"
+          src="/catwithbg.png"
           alt=""
           width={400}
           height={400}
