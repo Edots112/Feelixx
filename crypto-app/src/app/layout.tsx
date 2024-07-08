@@ -6,8 +6,8 @@ import Nav from "@/components/nav";
 const jost = Jost({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "$SMILO",
-  description: "$SMILO ",
+  title: "$DOSSI",
+  description: "$DOSSI ",
 };
 
 export default function RootLayout({

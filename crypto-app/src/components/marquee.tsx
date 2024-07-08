@@ -14,7 +14,7 @@ export default function Marquee() {
           {Array.from({ length: 10 }, (__, _) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <h1 className=" mt-2" key={_}>
-              $SMILO&nbsp;
+              $DOSSI&nbsp;
             </h1>
           ))}
         </div>
@@ -22,7 +22,7 @@ export default function Marquee() {
           {Array.from({ length: 10 }, (__, _) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <h1 className=" mt-2" key={_}>
-              $SMILO&nbsp;
+              $DOSSI&nbsp;
             </h1>
           ))}
         </div>
@@ -30,7 +30,7 @@ export default function Marquee() {
           {Array.from({ length: 10 }, (__, _) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <h1 className=" mt-2" key={_}>
-              $SMILO&nbsp;
+              $DOSSI&nbsp;
             </h1>
           ))}
         </div>
@@ -38,7 +38,7 @@ export default function Marquee() {
           {Array.from({ length: 10 }, (__, _) => (
             // biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
             <h1 className=" mt-2" key={_}>
-              $SMILO&nbsp;
+              $DOSSI&nbsp;
             </h1>
           ))}
         </div>

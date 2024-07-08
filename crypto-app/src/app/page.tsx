@@ -90,7 +90,7 @@ export default function Home() {
           <p
             className={`md:text-xl w-3/4 -mt-6 text-sm`}
           >
-            This is Smilo! The dog that always smile!
+            This is Dossi! The cat always ready for a misson!
              <br />
             
           </p>
@@ -229,7 +229,7 @@ function Tokenomics() {
       <div>
         <h1 className="text-4xl">Tokenomics</h1>
         <p className="text-xl mt-2">
-          Total Supply: 1 Billion $SMILO  <br />
+          Total Supply: 1 Billion $DOSSI  <br />
           No Buy/Sell Tax: 0% transaction fees <br />
           Dev wallet: 6.7% of total supply <br />
           Liquidty pool : 100 % Burned

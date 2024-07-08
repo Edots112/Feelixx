@@ -35,7 +35,7 @@ export default function Nav() {
             }}
             className={`${jomhuria.className} text-[2.5rem] relative p-0 h-8  -translate-y-3 transition-all duration-300 font-black`}
           >
-            ChinaCat
+            DOSSI
           </h1>
         </div>
         <div className="md:flex hidden gap-12">
@@ -75,7 +75,7 @@ export default function Nav() {
         >
           <Link
             className=" w-full h-full p-6 flex items-center justify-center text-center"
-            href={"https://pump.fun/A7WNAzXcwg8gqAMuuerbxgjohGLz44GfiHQfwi7bpump"}
+            href={"https://pump.fun/"}
           >
             Buy
           </Link>
